@@ -22,22 +22,18 @@ Requirements
 Node.js (v18 or higher)
 npm or yarn
 Postman, Insomnia, or curl for API testing
-API Endpoints
-The API will have the following endpoints:
 
-GET /api/products: Get all products
-GET /api/products/:id: Get a specific product
-POST /api/products: Create a new product
-PUT /api/products/:id: Update a product
-DELETE /api/products/:id: Delete a product
-Submission
+### API Endpoints
+
+- **GET /api/products** – Get all products
+- **GET /api/products/:id** – Get a specific product by ID
+- **POST /api/products** – Create a new product
+- **PUT /api/products/:id** – Update an existing product
+- **DELETE /api/products/:id** – Delete a product
+
+## Submission
 Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
 Complete all the required API endpoints
 Implement the middleware and error handling
 Document your API in the README.md
 Include examples of requests and responses
-Resources
-Express.js Documentation
-RESTful API Design Best Practices
-HTTP Status Codes
